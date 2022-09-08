@@ -1,5 +1,6 @@
 ﻿
 
+
 //Task 21
 int x1 = Convert.ToInt32(Console.ReadLine());
 int y1 = Convert.ToInt32(Console.ReadLine());
@@ -13,4 +14,5 @@ int l = (y1-y2);
 int m = (z1-z2);
 
 Console.WriteLine(Math.Sqrt(k*k+l*l+m*m));
+
 
