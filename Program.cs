@@ -12,5 +12,5 @@ int k = (x1-x2);
 int l = (y1-y2);
 int m = (z1-z2);
 
-Console.Writeline(Math.Sqrt(k*k+l*l+m*m));
+Console.WriteLine(Math.Sqrt(k*k+l*l+m*m));
 
