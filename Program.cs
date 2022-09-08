@@ -1,18 +1,18 @@
 ﻿
-//Task 19
 
-string? number = Console.ReadLine();
 
-void CheckingNumber(string number){
-if (number[0]==number[4] || number[1]==number[3]){
-Console.WriteLine("yes");
- }
-  else Console.WriteLine("no");
-}
+//Task 21
+int x1 = Convert.ToInt32(Console.ReadLine());
+int y1 = Convert.ToInt32(Console.ReadLine());
+int z1 = Convert.ToInt32(Console.ReadLine());
+int x2 = Convert.ToInt32(Console.ReadLine());
+int y2 = Convert.ToInt32(Console.ReadLine());
+int z2 = Convert.ToInt32(Console.ReadLine());
 
-if (number!.Length == 5){
-CheckingNumber(number);
-}
-else Console.WriteLine("Wrong number");
+int k = (x1-x2);
+int l = (y1-y2);
+int m = (z1-z2);
+
+Console.WriteLine(Math.Sqrt(k*k+l*l+m*m));
 
 
